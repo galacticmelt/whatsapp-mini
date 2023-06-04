@@ -3,7 +3,7 @@ import Main from './modules/main/main';
 import ErrorPage from './modules/error-page/error-page';
 import Entry from './modules/entry/entry';
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Navigate,
   Route,
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <RouterProvider
-      router={createBrowserRouter(
+      router={createHashRouter(
         createRoutesFromElements(
           <>
             <Route
