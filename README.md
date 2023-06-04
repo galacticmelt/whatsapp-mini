@@ -38,6 +38,7 @@
 *VITE_SECRET_KEY=supermegasecret1960*
 
 После этого можно локально запускать приложение:
+
 *npm run dev*
 
 
