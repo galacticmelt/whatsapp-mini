@@ -1,0 +1,74 @@
+.topPanel {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: #111b21;
+}
+
+.infoWrapper {
+  box-sizing: border-box;
+  height: 59px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background-color: #f0f2f5;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nameAndNumber {
+  display: flex;
+  flex-direction: column;
+}
+
+.phoneNumber {
+  font-size: 12px;
+}
+
+.showMenuButton {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchWrapper {
+  height: 49px;
+  width: 100%;
+  padding: 7px 12px;
+  border-bottom: 1px solid #e9edef;
+}
+
+@media screen and (min-width: 1300px) {
+  .contactsScreen {
+    max-width: 30%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px){
+  .contactsScreen {
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px){
+  .contactsScreen {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contactsScreen {
+    max-width: 45%;
+  }
+}
+
+

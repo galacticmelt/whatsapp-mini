@@ -1,0 +1,26 @@
+.searchForm {
+  width: 100%;
+  position: relative;
+}
+
+.searchFormInput {
+  height: 35px;
+  width: 100%;
+  background-color: #f0f2f5;
+  border: 0;
+  border-radius: 8px;
+  padding-left: 65px;
+  padding-right: 32px;
+  &:focus {
+    outline: none;
+  }
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.searchFormButton {
+  box-sizing: border-box;
+  position: absolute;
+  top: 5px;
+  left: 11px;
+}
